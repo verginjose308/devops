@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar input {
+    padding: 5px;
+    width: 300px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.banner {
+    background: orange;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    background: #2874f0;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
